@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Spotify Search</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+	</head>
+	<body>
+		
+  	<div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Spotify searcher</h1>
+        <form class="js-form">
+          <fieldset class="form-group">
+            <label for="artist">Song </label>
+            <input type="text" name="artist" id="js-artist" class="form-control">
+          </fieldset>
+          <button class="btn btn-info">SEARCH</button>
+        </form>
+      </div>
+    </div>
+
+		<div class="widget">
+			<div class="header">
+			<!-- Try adding/removing these classes: -->
+			<!-- disabled -->
+			<!-- playing -->
+			<div class="btn-play disabled"></div>
+
+			<div class="metadata">
+			  <p class="title">
+        </p>
+			  <p class="author">alt-J</p>
+
+			  <div class="seekbar">
+			    <progress value="5" max="30"></progress>
+			  </div>
+			</div>
+			</div>
+			<div class="cover">
+			<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+			</div>
+
+			<audio src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31"></audio>
+		</div>
+
+		<script src="./js/spotify.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+	</body>
+</html>
